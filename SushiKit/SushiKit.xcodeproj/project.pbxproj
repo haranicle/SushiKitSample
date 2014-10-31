@@ -333,6 +333,7 @@
 				INFOPLIST_FILE = SushiKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -402,6 +403,7 @@
 				5F16B47B1A025C07006FDC8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F16B47C1A025C07006FDC8F /* Build configuration list for PBXNativeTarget "SushiKitTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +412,7 @@
 				5F16B47E1A025C07006FDC8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
