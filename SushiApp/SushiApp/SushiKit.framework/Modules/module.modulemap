@@ -1,0 +1,6 @@
+framework module SushiKit {
+  umbrella header "SushiKit.h"
+
+  export *
+  module * { export * }
+}
